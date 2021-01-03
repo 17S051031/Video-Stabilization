@@ -58,9 +58,11 @@ Python PuLP - As a linear programming solver in the implementation of [1]
 
 ### Link to existing code or non-trivial APIs
 
-We might refer to the below links for implementation of reference [1]:
-https://github.com/ishit/L1Stabilizer
-https://github.com/VAIBHAV-2303/VideoStabilization
+We have referred to the below links for implementation of reference:
+
+[1] https://github.com/ishit/L1Stabilizer
+
+[2] https://github.com/VAIBHAV-2303/VideoStabilization
 
 ### Evaluation Metrics
 
