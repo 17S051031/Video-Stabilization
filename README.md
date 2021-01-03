@@ -50,8 +50,7 @@ We plan to deliver the following novel contributions-
 Secondly, a more ambitious extension to the reference [3] is to employ GANs to the video stabilization problem. [3] dismisses the use of generative networks on the stabilization problem since as per them there is “severe vibration” in the input video content. We are not quite convinced by this and would like to try for ourselves.
 
 ### Frameworks and Libraries
-What framework/libraries will you be using for the project. Ex- tensorflow, pytorch, opencv, matlab libraries, etc.
-We plan to stick to python in google colab for the deep learning parts of the project and 
+We plan to stick to python in google collab for the deep learning parts of the project and 
 Opencv - for data reading, augmentation, rendering etc.
 Pytorch - for Deep Learning 
 Python PuLP - As a linear programming solver in the implementation of [1]
@@ -67,11 +66,11 @@ We have referred to the below links for implementation of reference:
 ### Evaluation Metrics
 
 The metrics that we will be using are :
-Cropping Ratio: i.e. area of the remaining content after stabilization
-Distortion value: it  evaluates the distortion degree introduced by stabilization
-Stability Score which uses frequency-domain analysis of camera path to estimate the stability
-The computation time of each algorithm
-Finally stabilization results on wavy second-order damped motion video.
+1. Cropping Ratio: i.e. area of the remaining content after stabilization
+2. Distortion value: it  evaluates the distortion degree introduced by stabilization
+3. Stability Score which uses frequency-domain analysis of camera path to estimate the stability
+4. The computation time of each algorithm
+5. Finally stabilization results on wavy second-order damped motion video.
 
 ### Systems and training regimes planned to be used
 
