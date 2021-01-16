@@ -39,7 +39,7 @@ def plot_trajectory(og, stb, name):
     plt.ylabel('2D Camera x coord. (pixels)')
     plt.title('Original vs Stab x')
     plt.legend(['Original', 'Stabilized'])
-    plt.savefig("plots/{0}_traj_x.png".format(name))
+    plt.savefig("plots/{0}_traj_x_debug.png".format(name))
     plt.close()
     # y-coordinate trajectory
     plt.figure()
@@ -49,7 +49,7 @@ def plot_trajectory(og, stb, name):
     plt.ylabel('2D Camera y coord. (pixels)')
     plt.title('Original vs Stab y')
     plt.legend(['Original', 'Stabilized'])
-    plt.savefig("plots/{0}_traj_y.png".format(name))
+    plt.savefig("plots/{0}_traj_y_debug.png".format(name))
     plt.close()
     return
 
@@ -89,7 +89,7 @@ def get_inter_frame_transforms(cap, F_transforms, prev_gray):
         # Move to next frame
         prev_gray = curr_gray
         # print("Frame: " + str(i) + "/" + str(n_frames) + " -  Tracked points : " + str(len(prev_pts)))
-        return
+    return
 
 
 # Stabilize the video frame by frame using the obtained transforms and save it
