@@ -101,8 +101,8 @@ def write_output(cap, out, B_transforms, shape, frame_limits):
     for i in range(n_frames):
         # Read the first/next frame
         success, frame = cap.read()
-        cv.imshow("Before and After", frame)
-        cv.waitKey(10)
+        # cv.imshow("Before and After", frame)
+        # cv.waitKey(10)
         # If there is not next frame to read, exit display loop
         if not success:
             break
@@ -121,7 +121,7 @@ def write_output(cap, out, B_transforms, shape, frame_limits):
         cv.imshow("Before and After", frame_out)
         cv.waitKey(10)
         out.write(frame_out)
-        return
+    return
 
 
 # Main function reads in the input, processes it and writes the output
